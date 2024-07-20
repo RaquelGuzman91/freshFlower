@@ -105,7 +105,7 @@ header .fa-bars{
     background-position: center;
 }
 .home .content{
-    max-width: 50rem;
+    max-width: 60rem;
 }
 .home .content h3{
     font-size: 6rem;
@@ -118,8 +118,8 @@ header .fa-bars{
     line-height: 2.7rem;
 }
 .home .content p{
-    font-size: 1.7rem;
-    color: #999;
+    font-size: 2.1rem;
+    color: #707070;
     padding: 1rem 0;
     line-height: 1.5;
 }
@@ -382,6 +382,12 @@ header .fa-bars{
 .contact .row form textarea{
     height: 15rem;
     resize: none;
+}
+/*------quitar flechas en input numbers-------*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
 }
 /*--------      footer    ---------*/
 .footer .box-container{
